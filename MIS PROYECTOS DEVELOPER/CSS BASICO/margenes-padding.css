@@ -1,0 +1,33 @@
+h1{
+    background: #EBB02D;
+    /* 
+    margin-top: 200px; MARGEN PARTE SUPERIOR
+    margin-left: 100px; MARGEN LADO IZQUIERDO
+    margin-bottom: 200px; MARGEN PARTE INFERIOR
+    margin-right: 100px; MARGEN LADO DERECHO
+
+    margin: 100px;  MARGEN GENERAL PARA TODOS LOS LADOS  
+
+    margin: 200px 100px;  MARGEN 200px superior y inferior / MARGEN 100px izquierda y derecha
+    margin: 100px 10px 20px 500px; /* MARGEN 100px superior / MARGEN 10px izq / MARGEN 20px inferior / MARGEN 500px derecho 
+    */
+}
+
+p{
+    background: #FC2947;
+
+    /* 
+    padding: 100px; MARGEN GENERAL PARA TODOS LOS LADOS  
+
+    padding-top: 200px; MARGEN PARTE SUPERIOR
+    padding-left: 100px; MARGEN LADO IZQUIERDO
+    padding-bottom: 200px; MARGEN PARTE INFERIOR
+    padding-right: 100px; MARGEN LADO DERECHO
+
+    margin: 200px 100px; MARGEN 200px superior y inferior / MARGEN 100px izquierda y derecha
+    margin: 100px 10px 20px 500px; MARGEN 100px superior / MARGEN 10px izq / MARGEN 20px inferior / MARGEN 500px derecho
+    */   
+}
+
+
+

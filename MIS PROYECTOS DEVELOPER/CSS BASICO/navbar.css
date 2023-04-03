@@ -1,0 +1,42 @@
+.nav-enlace{
+    display: inline-block; /*ELEMENTOS DE LINEA*/ 
+    background: salmon; /*COLOR DE NUESTROS */
+    color: #fff; /*COLOR LETRA*/
+    padding: 10px 20px; /*TAMAÑO*/
+    text-decoration: none; /*SIRVE PARA QUITAR LA LINEA DE SUBRAYADO EN NUESTRO ENLACE*/
+}
+
+.nav-enlace:hover{
+    background: violet; /*COLOR QUE APARECERÁ AL MOMENTO DE PASAR EL CURSOR POR ENCIMA*/
+}
+
+nav{
+    background: purple; /*COLOR PARA NUESTRO FONDO*/
+    padding: 10px; /*TAMAÑO*/
+    display: flex;
+    justify-content: space-around; /*SIRVE PARA DARLE ESPACIO EN NUESTRA BARR DE NAVEGACIÓN */
+}
+
+.nav-button{
+    background: salmon; /*SIRVE PARA DARLE COLOR A NUESTRO FONDO*/
+    color: #fff; /*COLOR DE NUESTRA LETRA*/
+    padding: 10px 0; /*TAMAÑO DEL BOTÓN*/
+    border: 2px solid #fff; /* ESTILIZAR LOS BORDES*/
+    display: none; /*PARA QUE SE DESAPAREZCA EN PX SUPERIORES DE 601px*/
+}
+
+@media (max-width: 600px) {
+    nav{
+        background: black; /*COLOR PARA NUESTRO FONDO*/
+        flex-direction: column; /*SIRVE PARA QUE NUESTROS ANCLAS(Etiquetas a) ,QUEDEN UNA DEBAJO DE LA OTRA*/
+    }
+    .nav-enlace{
+        margin: 10px 0; /*NOS SIRVE PARA DARLE UN MARGEN*/
+    }
+    .nav-button{
+        display: inline-block; /*NOS SIRVE PARA QUE NUESTRO BOTÓN APAREZCA CUANDO ESTE EN PX INFERIORES A 600px Y DE FORMA IGUAL QUE LOS OTROS */
+    }
+    .desaparece{
+        display: none;
+    }
+}

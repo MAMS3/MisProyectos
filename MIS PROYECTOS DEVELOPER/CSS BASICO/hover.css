@@ -1,0 +1,13 @@
+button{
+    background: #16FF00; /*COLOR DEL BOTÓN*/
+    color: #F94A29; /*COLOR DE NUESTRA LETRA*/
+}
+
+button:hover{
+    background: #913175; /*COLOR DEL BOTÓN AL MOMENTO DE PASAR EL CURSOR*/
+    color: #000000; /*COLOR DE NUESTRA LETRA AL MOMENTO DE PASAR EL CURSOR<*/
+}
+
+button:active{
+    background: #DC0000; /*COLOR DEL BOTÓN AL MOMENTO DE DAR CLICK*/
+}

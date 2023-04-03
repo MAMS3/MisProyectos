@@ -1,0 +1,16 @@
+nav{
+    background: #E21818;
+    padding: 20px;
+}
+
+.columna{
+    background: #E7B10A; /*COLOR DE FONDO DE NUESTRO TEXTO */
+    color: #ECF2FF; /*COLOR DE LETRA */
+    padding: 30px; /*MARGEN INTERNO */
+    width: 25%; /*ANCHO  */
+    margin: 10px; /*MARGEN PARA CADA PÁRRAFO*/
+}
+
+.padre{
+    display: flex; /*NOS PERMITE HACER ELEMENTOS FLEXIBLES*/
+}
